@@ -36,7 +36,7 @@ def load_model():
         # BRIA RMBG v1.4 - Le modèle officiel
         rmbg_pipe = pipeline(
             "image-segmentation",
-            model="briaai/RMBG-1.4",
+            model="briaai/RMBG-2.0",
             trust_remote_code=True,
             device=0 if torch.cuda.is_available() else -1
         )
