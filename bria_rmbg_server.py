@@ -100,7 +100,7 @@ def health_check():
     """Endpoint de vérification de santé"""
     return jsonify({
         "status": "healthy",
-        "model": "BRIA-RMBG-1.4",
+        "model": "BRIA-RMBG-2.0",
         "gpu_available": torch.cuda.is_available()
     })
 
